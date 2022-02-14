@@ -23,6 +23,6 @@ jobs:
         role-duration-seconds: 1200
         aws-region: ap-south-1
 
-    - name: Deploy to S3 Bucket
+    - name: Deploy to S3 
       run: |
         aws s3 sync . s3://new-oidc
