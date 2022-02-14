@@ -20,6 +20,6 @@ jobs:
         role-duration-seconds: 1200
         aws-region: ap-south-1
 
-    - name: Deploy to S3 
+    - name: Deploy to S3 Bucket
       run: |
-        aws s3 sync . s3://s3github
+        aws s3 sync . s3://rolebased
