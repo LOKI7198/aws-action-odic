@@ -19,7 +19,7 @@ jobs:
     - name: Configure AWS credentials from Test account
       uses: aws-actions/configure-aws-credentials@v1
       with:
-        role-to-assume: arn:aws:iam::144968974651:role/gits3sync
+        role-to-assume: arn:aws:iam::144968974651:role/oidc
         role-duration-seconds: 1200
         aws-region: ap-south-1
 
