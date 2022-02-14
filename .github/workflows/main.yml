@@ -25,4 +25,4 @@ jobs:
 
     - name: Deploy to S3 Bucket
       run: |
-        aws s3 sync . s3://rolebased
+        aws s3 sync . s3://new-oidc
