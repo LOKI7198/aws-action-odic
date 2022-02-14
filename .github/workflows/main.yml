@@ -20,6 +20,6 @@ jobs:
         aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         aws-region: ap-south-1
 
-    - name: Deploy to s3
+    - name: Deploy to s3 Bucket
       run: |
         aws s3 sync . s3://feb-14bucket
